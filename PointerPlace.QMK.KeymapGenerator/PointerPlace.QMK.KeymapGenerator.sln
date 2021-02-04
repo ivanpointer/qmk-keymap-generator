@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PointerPlace.QMK.KeymapGenerator.Frontend", "PointerPlace.QMK.KeymapGenerator.Frontend\PointerPlace.QMK.KeymapGenerator.Frontend.njsproj", "{149528EA-0E63-4C03-81A1-79C25F4C58EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointerPlace.QMK.KeymapGenerator.Backend", "PointerPlace.QMK.KeymapGenerator.Backend\PointerPlace.QMK.KeymapGenerator.Backend.csproj", "{E877F763-726B-4709-A266-91CC5D5210A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointerPlace.QMK.KeymapGenerator.Backend.Contracts", "PointerPlace.QMK.KeymapGenerator.Backend.Contracts\PointerPlace.QMK.KeymapGenerator.Backend.Contracts.csproj", "{60FC312D-7DDD-401E-9286-E5D4944FF263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointerPlace.QMK.KeymapGenerator.Core", "PointerPlace.QMK.KeymapGenerator.Core\PointerPlace.QMK.KeymapGenerator.Core.csproj", "{0337A2B2-149F-42CC-8FFA-B82C522188A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointerPlace.QMK.KeymapGenerator.Core.Tests", "PointerPlace.QMK.KeymapGenerator.Core.Tests\PointerPlace.QMK.KeymapGenerator.Core.Tests.csproj", "{B9555F43-910F-4294-95D2-1AE1F1BECE9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{149528EA-0E63-4C03-81A1-79C25F4C58EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149528EA-0E63-4C03-81A1-79C25F4C58EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149528EA-0E63-4C03-81A1-79C25F4C58EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149528EA-0E63-4C03-81A1-79C25F4C58EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E877F763-726B-4709-A266-91CC5D5210A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E877F763-726B-4709-A266-91CC5D5210A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E877F763-726B-4709-A266-91CC5D5210A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E877F763-726B-4709-A266-91CC5D5210A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FC312D-7DDD-401E-9286-E5D4944FF263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FC312D-7DDD-401E-9286-E5D4944FF263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FC312D-7DDD-401E-9286-E5D4944FF263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FC312D-7DDD-401E-9286-E5D4944FF263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0337A2B2-149F-42CC-8FFA-B82C522188A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0337A2B2-149F-42CC-8FFA-B82C522188A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0337A2B2-149F-42CC-8FFA-B82C522188A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0337A2B2-149F-42CC-8FFA-B82C522188A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9555F43-910F-4294-95D2-1AE1F1BECE9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9555F43-910F-4294-95D2-1AE1F1BECE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9555F43-910F-4294-95D2-1AE1F1BECE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9555F43-910F-4294-95D2-1AE1F1BECE9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A73724CF-675A-4CD6-948D-C94034B34008}
+	EndGlobalSection
+EndGlobal
