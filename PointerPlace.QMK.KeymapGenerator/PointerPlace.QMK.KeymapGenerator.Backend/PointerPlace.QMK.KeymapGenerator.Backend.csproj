@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PointerPlace.QMK.KeymapGenerator.Backend.Contracts\PointerPlace.QMK.KeymapGenerator.Backend.Contracts.csproj" />
+    <ProjectReference Include="..\PointerPlace.QMK.KeymapGenerator.Core\PointerPlace.QMK.KeymapGenerator.Core.csproj" />
+  </ItemGroup>
+
 </Project>

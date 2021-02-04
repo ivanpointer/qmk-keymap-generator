@@ -4,4 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PointerPlace.QMK.KeymapGenerator.Backend.Contracts\PointerPlace.QMK.KeymapGenerator.Backend.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>
